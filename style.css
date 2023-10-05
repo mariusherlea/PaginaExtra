@@ -225,6 +225,22 @@ body > section:last-child {
   width: 541px;
   height: 426px;
 }
+
+body > section.our-client > div > div > div > img {
+  width: 159px;
+}
+body > section.our-client > div > div {
+  gap: 64px;
+}
+
+body > section.our-client > div > h2 {
+  color: #22343d;
+
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
 #customer-support > .content-left-col {
   margin-right: 0px;
   margin-left: 3%;
