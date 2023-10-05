@@ -237,13 +237,47 @@ body > section.our-client > div > div {
 
 body > section.our-client > div > h2 {
   color: #22343d;
-
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
+#product-is {
+  margin-top: 153px;
+  margin-bottom: 177px;
+}
+#product-is > h2 {
+  margin-bottom: 56px;
+}
+#how-product > h2 {
+  text-align: center;
+  margin-bottom: 73px;
+}
 
+#how-product > div > div.content-right-col.section-2-col-item > h5 {
+  color: #22343d;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+
+#how-product > div > div.content-right-col.section-2-col-item > h3 {
+  color: #22343d;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+
+#how-product > div > div.content-right-col.section-2-col-item > p {
+  margin-top: 0px;
+}
 .content-left-col,
 .content-right-col {
   width: 50%;
@@ -1135,7 +1169,13 @@ body > section.client {
   #product-is > div > div.content-left-col.section-2-col-item > div > p {
     text-align: left;
   }
+  #product-is > h2 {
+    text-align: center;
+  }
 
+  #how-product > div {
+    flex-direction: column;
+  }
   .section-row-4-cols div {
     display: flex;
     flex-direction: column;
