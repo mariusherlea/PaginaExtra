@@ -254,7 +254,7 @@ body > section.our-client > div > h2 {
   margin-bottom: 73px;
 }
 
-#how-product > div > div.content-right-col.section-2-col-item > h5 {
+#how-product > div > div > h5 {
   color: #22343d;
   text-align: center;
   font-size: 20px;
@@ -264,7 +264,7 @@ body > section.our-client > div > h2 {
   margin-bottom: 0px;
 }
 
-#how-product > div > div.content-right-col.section-2-col-item > h3 {
+#how-product > div > div > h3 {
   color: #22343d;
   text-align: center;
   font-size: 24px;
@@ -275,7 +275,7 @@ body > section.our-client > div > h2 {
   margin-top: 16px;
 }
 
-#how-product > div > div.content-right-col.section-2-col-item > p {
+#how-product > div > div > p {
   margin-top: 0px;
 }
 .content-left-col,
@@ -1175,6 +1175,11 @@ body > section.client {
 
   #how-product > div {
     flex-direction: column;
+  }
+
+  #how-product > div > div {
+    align-items: flex-start;
+    text-align: left;
   }
   .section-row-4-cols div {
     display: flex;
