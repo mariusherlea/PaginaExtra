@@ -225,7 +225,9 @@ body > section:last-child {
   width: 541px;
   height: 426px;
 }
-
+#product-is > div > div.content-left-col.section-2-col-item {
+  margin-left: 40px;
+}
 body > section.our-client > div > div > div > img {
   width: 159px;
 }
@@ -240,15 +242,6 @@ body > section.our-client > div > h2 {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-}
-#customer-support > .content-left-col {
-  margin-right: 0px;
-  margin-left: 3%;
-}
-
-#customer-support > .content-right-col {
-  margin-left: 0px;
-  margin-right: 3%;
 }
 
 .content-left-col,
@@ -1135,8 +1128,12 @@ body > section.client {
     margin: 0;
   }
 
-  #customer-support {
-    margin-bottom: 100px;
+  #product-is > div {
+    flex-direction: column;
+  }
+
+  #product-is > div > div.content-left-col.section-2-col-item > div > p {
+    text-align: left;
   }
 
   .section-row-4-cols div {
