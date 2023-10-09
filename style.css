@@ -181,26 +181,16 @@ body > section:last-child {
   flex-shrink: 0;
   border-radius: 100px;
   border: 1px solid #eaeaea;
-  position: absolute;
-  resize: none;
-  height: 20px;
-  padding: 25px;
-  width: 431px;
-}
-
-#round-dialog\ d-flex > input {
-  width: 117.121px;
-  height: 50px;
-  padding: 0px;
-  align-items: center;
-  gap: 10px;
-  flex-shrink: 0;
-  border-radius: 100px;
   position: relative;
-  margin-left: 350px;
-  margin-top: 12px;
+  resize: none;
+  height: auto;
+  padding: 25px;
+  width: 200%;
 }
-
+#round-dialog {
+  width: 30%;
+  height: auto;
+}
 #img1 {
   position: absolute;
 }
@@ -212,6 +202,21 @@ body > section:last-child {
 #img3 {
   position: relative;
   margin-left: -25px;
+}
+#round-dialog > button {
+  display: flex;
+  width: 70%;
+  padding: 24px;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  background: #02897a;
+  margin-left: -75%;
+  z-index: 1;
+}
+#green {
+  color: #02897a;
 }
 
 #great-bussines > div.content-left-col.section-2-col-item > div.d-flex {
@@ -236,8 +241,8 @@ body > section:last-child {
   color: #02897a;
 }
 #section-1 > div.content-right-col.section-2-col-item > img {
-  width: 541px;
-  height: 426px;
+  width: 90%;
+  height: auto;
 }
 #product-is > div > div.content-left-col.section-2-col-item {
   margin-left: 40px;
@@ -594,119 +599,7 @@ body > section.section-bg-reverse.chat-section.content-container {
   line-height: normal;
 }
 
-.price-categories {
-  margin-top: 24px;
-  margin-bottom: 8px;
-}
-.price-description {
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-#price-table .section-3-row {
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: baseline;
-  flex-wrap: wrap;
-}
-
-#price-table .section-3-row > div {
-  width: 322.649px;
-  height: 456px;
-  border-radius: 8px;
-  background: #fff;
-  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
-}
-
-#price-table .section-3-row > div > p:first-child {
-  color: #22343d;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 40px; /* 166.667% */
-}
-
-#price-table .section-3-row > div > p:nth-child(2) {
-  color: #22343d;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 40px; /* 250% */
-}
-#price-table .section-3-row > div:nth-child(2) {
-  background: #02897a;
-  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
-}
-
-.big-number {
-  grid-area: big-number;
-}
-.dollar {
-  grid-area: dollar;
-}
-
-.per-month {
-  grid-area: per-month;
-}
-
-#price-table .section-3-row > div > p:nth-child(3) {
-  display: grid;
-  grid-template-areas:
-    "big-number dollar"
-    "big-number per-month";
-  gap: 8px;
-}
-#price-table .section-3-row > div > p > .big-number {
-  color: #02897a;
-  text-align: right;
-  font-size: 76px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 100px; /* 131.579% */
-  letter-spacing: 0.2px;
-}
-
-#price-table .section-3-row > div > p > .dollar {
-  position: relative;
-  bottom: -20px;
-  color: #02897a;
-  text-align: left;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 30px; /* 125% */
-  letter-spacing: 0.1px;
-}
-#price-table .section-3-row > div > p > .per-month {
-  text-align: left;
-  color: var(--second-text, #afafaf);
-  font-family: Poppins;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 19px; /* 118.75% */
-  letter-spacing: 0.1px;
-}
-
-#price-table .section-3-row > div:nth-child(2) > p {
-  color: #fff;
-}
-
-#price-table .section-3-row > div:nth-child(2) > p > .big-number {
-  color: white;
-}
-#price-table .section-3-row > div:nth-child(2) > p > .dollar {
-  color: white;
-}
-#price-table .section-3-row > div:nth-child(2) > p > .per-month {
-  color: white;
-}
-
-#price-table .section-3-row > div:nth-child(2) > .button-primary {
-  background: white;
-  color: #02897a;
-}
-
-body > section.client > div > div > div {
+. body > section.client > div > div > div {
   padding: 26px;
   width: calc((100% / 3)-65px);
   height: auto;
@@ -883,6 +776,9 @@ body > section.client {
     ~ .nav-bar-wrapper
     > .nav-bar-buttons-container {
     height: 0;
+  }
+  #round-dialog {
+    justify-content: center;
   }
 
   .section-row-4-cols div {
