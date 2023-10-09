@@ -214,6 +214,7 @@ body > section:last-child {
   background: #02897a;
   margin-left: -75%;
   z-index: 1;
+  justify-content: center;
 }
 #green {
   color: #02897a;
