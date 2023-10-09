@@ -781,6 +781,12 @@ body > section.client {
     justify-content: center;
   }
 
+  #section-1 > div.content-right-col.section-2-col-item {
+    margin-left: 0px;
+    width: 80%;
+    align-items: center;
+  }
+
   .section-row-4-cols div {
     margin-top: 10px;
     margin-bottom: 15px;
