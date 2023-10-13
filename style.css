@@ -171,7 +171,9 @@ body > nav > div > div.row-centered.nav-bar-buttons-container {
   align-items: center;
   margin-top: 4%;
 }
-
+#great-bussines > div.content-right-col.section-2-col-item > picture > img {
+  width: 90%;
+}
 #img1 {
   position: absolute;
 }
