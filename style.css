@@ -1035,6 +1035,11 @@ body > section.client {
     margin-left: 0;
     margin-right: 0;
   }
+
+  #how-product > div > div {
+    margin-top: 15%;
+    margin-bottom: 10%;
+  }
   #how-product > div > div {
     align-items: flex-start;
     text-align: left;
