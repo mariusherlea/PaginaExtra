@@ -1088,11 +1088,17 @@ body > section.client {
   body > section.section-bg-reverse.chat-section.content-container {
     margin-bottom: 100px;
   }
-
+  #form {
+    margin-top: 20%;
+  }
   #form > h2 {
     width: 90%;
+    margin-bottom: 15%;
   }
-
+  #form > div > div > h3 {
+    margin-top: 0px;
+    margin-bottom: 8%;
+  }
   .outerForm {
     width: 90%;
   }
@@ -1100,7 +1106,7 @@ body > section.client {
     margin-bottom: 100px;
   }
 
-  #footer > div > div.section-row-4-cols-item-1 > div:nth-child(2) {
+  #footer > div > div.section-row-4-cols-item-1 > div {
     flex-direction: row;
   }
 }
