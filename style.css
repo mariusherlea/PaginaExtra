@@ -734,7 +734,9 @@ body > section.client {
   background: #fff;
   display: flex;
 }
-
+#form {
+  width: 75%;
+}
 #form > h2 {
   text-align: center;
 }
@@ -798,12 +800,29 @@ body > section.client {
 }
 
 #footer > div > div.section-row-4-cols-item-1 > div:nth-child(2) {
-  gap: 16px;
+  gap: 5%;
+}
+#footer > div > div > a {
+  color: inherit;
 }
 
+#footer > div > div > h5 {
+  margin-top: 0px;
+  margin-bottom: 5%;
+}
+#footer > div > div.section-row-4-cols-item-4 > h5 {
+  width: 75%;
+}
+#footer > div > div.section-row-4-cols-item-1 > div:nth-child(2) {
+  margin-top: 5%;
+}
+
+#footer > div > div > a > p {
+  margin-bottom: 3%;
+}
 #madeBy {
   text-align: center;
-  margin-top: 23px;
+  margin-top: 5%;
 }
 
 @media screen and (max-width: 1150px) {
@@ -1088,6 +1107,11 @@ body > section.client {
   body > section.section-bg-reverse.chat-section.content-container {
     margin-bottom: 100px;
   }
+
+  #form > div {
+    width: 95%;
+  }
+
   #form {
     margin-top: 20%;
   }
@@ -1099,13 +1123,25 @@ body > section.client {
     margin-top: 0px;
     margin-bottom: 8%;
   }
-  .outerForm {
-    width: 90%;
+
+  #footer > div > div > a > p {
+    margin-bottom: 8%;
   }
+
+  #footer > div > div.section-row-4-cols-item-4 > div {
+    margin-top: 2%;
+  }
+
   body > section.client {
     margin-bottom: 100px;
   }
 
+  #footer > div > div > h5 {
+    margin-top: 5%;
+  }
+  #form {
+    width: 95%;
+  }
   #footer > div > div.section-row-4-cols-item-1 > div {
     flex-direction: row;
   }
