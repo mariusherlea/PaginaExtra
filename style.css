@@ -973,6 +973,13 @@ body > section.client {
   #join > div.content-left-col.section-2-col-item > h2 {
     margin-bottom: 10px;
   }
+  #form {
+    width: 90%;
+  }
+
+  #great-bussines > div.content-left-col.section-2-col-item {
+    margin-right: 0px;
+  }
 }
 
 @media screen and (max-width: 750px) {
